@@ -1,0 +1,14 @@
+{
+  "name": "electron-playground",
+  "version": "0.0.1",
+  "description": "Repo to try different electron functionalities",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . $URL"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.0"
+  }
+}
