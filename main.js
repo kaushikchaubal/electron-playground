@@ -9,7 +9,7 @@ app.whenReady().then(() => {
         }
       })
     
-      // and load the index.html of the app.
+      // Load the URL
       let URL = process.env.URL 
       if (URL) {
         console.log('Loading remote URL:', URL)
