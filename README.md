@@ -27,5 +27,10 @@ URL=https://www.google.com/ npm start
 
 ## Functionalities added:
 
+1. Electron packaging (for Linux, Windows and MacOS)
+```
+Run the following command
+electron-packager . --platform=linux,win32,darwin --arch=x64
+```
 
 

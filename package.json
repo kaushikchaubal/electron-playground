@@ -4,11 +4,13 @@
   "description": "Repo to try different electron functionalities",
   "main": "main.js",
   "scripts": {
-    "start": "electron . $URL"
+    "start": "electron . $URL",
+    "package": "electron-packager . electron-playground --all"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^9.0.0"
+    "electron": "^9.0.0",
+    "electron-packager": "^14.2.1"
   }
 }
