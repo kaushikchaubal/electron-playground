@@ -21,7 +21,7 @@ npm start
 
 (Optional) 4. Run arbitrary URL
 ```
-// For eg, to load https://www.google.com/
+<!-- For eg, to load https://www.google.com/ -->
 URL=https://www.google.com/ npm start
 ```
 
@@ -29,7 +29,7 @@ URL=https://www.google.com/ npm start
 
 1. Electron packaging (for Linux, Windows and MacOS)
 ```
-Run the following command
+<!-- Run the following command -->
 electron-packager . --platform=linux,win32,darwin --arch=x64
 ```
 
