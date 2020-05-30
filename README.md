@@ -25,3 +25,7 @@ npm start
 URL=https://www.google.com/ npm start
 ```
 
+## Functionalities added:
+
+
+

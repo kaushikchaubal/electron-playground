@@ -1,7 +1,7 @@
 const { app, BrowserWindow } = require('electron')
 
 app.whenReady().then(() => {
-    let win = new BrowserWindow({
+    let mainWindow = new BrowserWindow({
         width: 800,
         height: 600,
         webPreferences: {
@@ -13,9 +13,12 @@ app.whenReady().then(() => {
       let URL = process.env.URL 
       if (URL) {
         console.log('Loading remote URL:', URL)
-        win.loadURL(URL)
+        mainWindow.loadURL(URL)
       } else {
-        win.loadFile('index.html')
+        mainWindow.loadFile('index.html')
       }
+
+      // Open the DevTools.
+      mainWindow.webContents.openDevTools()
       
 })
